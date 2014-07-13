@@ -6,12 +6,15 @@
 
 package main;
 
+import gui.AppFrame;
+
 /**
  *
  * @author Cuong
  */
 public class Inspector {
 	public static void main(String[] args) {
-		
+		AppFrame appFrame = new AppFrame("ThingSurf Inspector");
+		appFrame.showFrame();
 	}
 }
